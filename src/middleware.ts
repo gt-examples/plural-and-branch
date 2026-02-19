@@ -1,12 +1,9 @@
 import { createNextMiddleware } from 'gt-next/middleware';
 
-export default createNextMiddleware({
-  prefixDefaultLocale: true,
-});
+export default createNextMiddleware();
 
 export const config = {
   matcher: [
-    "/",
     "/((?!api|static|.*\\..*|_next).*)",
   ],
 };
