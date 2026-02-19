@@ -1,5 +1,16 @@
 {
   "projectId": "prj_ahu5jvur4ovl4lka2xz9fezs",
   "defaultLocale": "en",
-  "locales": ["es", "fr", "ja", "ar"]
+  "locales": [
+    "es",
+    "fr",
+    "ja",
+    "ar"
+  ],
+  "files": {
+    "gt": {
+      "output": "src/_gt/[locale].json"
+    }
+  },
+  "_versionId": "cd10e84bd57050260a512c9c3ef7eceb1fc2f06aa716c59162d39551c0085aa1"
 }

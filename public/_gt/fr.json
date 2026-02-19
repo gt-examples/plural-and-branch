@@ -1,0 +1,323 @@
+{
+  "1d8e05a6234042a4": "Le Composant Branche affiche un contenu différent selon une clé de type chaîne. Chaque type de notification (message, alerte, mise à jour) possède son propre texte traduit.",
+  "1e9c2164621153f8": "Essayez de changer de langue avec le sélecteur ci-dessus. Fermez les notifications pour voir les comptes au pluriel se mettre à jour en temps réel.",
+  "2cbdcf2002a92694": "Réinitialiser les notifications",
+  "426dca14126ac985": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " messages"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " messages"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " messages"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " message"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "zero": {
+          "c": "Aucun message",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "5a8b7ed8982653e0": "Ignorer",
+  "62d6d73ce9c945d9": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " alertes"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " alertes"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " alertes"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " alerte"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "zero": {
+          "c": "Aucune alerte",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "729c97ccafd0ad8f": "Démo Plural et Branch",
+  "7fcc86c6f425edca": "Boîte de notifications",
+  "84d2d54955000b81": {
+    "d": {
+      "b": {
+        "alert": "Une alerte requiert votre attention.",
+        "message": "Vous avez reçu un message direct.",
+        "update": "Une mise à jour système est disponible."
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "8bcb2a4c6d70ac26": {
+    "d": {
+      "b": {
+        "alert": {
+          "c": [
+            "Alerte de ",
+            {
+              "i": 3,
+              "k": "_gt_value_3",
+              "v": "v"
+            }
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "message": {
+          "c": [
+            "Nouveau message de ",
+            {
+              "i": 3,
+              "k": "_gt_value_3",
+              "v": "v"
+            }
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "update": {
+          "c": [
+            "Mise à jour de ",
+            {
+              "i": 3,
+              "k": "_gt_value_3",
+              "v": "v"
+            }
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "8c803cc8ae6aed0a": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            "Vous avez ",
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " notifications."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            "Vous avez ",
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " notifications."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            "Vous avez ",
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " notifications."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            "Vous avez ",
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " notification."
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "zero": {
+          "c": "Vous n'avez aucune notification.",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "a06c8f3b9afd1681": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " mises à jour"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " mises à jour"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " mises à jour"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " mise à jour"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "zero": {
+          "c": "Aucune mise à jour",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "c710ee112651e1dd": "Résumé",
+  "c7ea9f2de09ae99b": "Comment ça marche",
+  "c8e941adb0756196": "Vous êtes à jour. Plus aucune notification.",
+  "d13f97c11d2f322b": "Réinitialiser tout",
+  "dce353503a57ff7d": "Démonstration des composants Pluriel et Branche de gt-next",
+  "ed5493eed0a97fdb": "Le Composant Pluriel sélectionne les formes singulier, pluriel ou zéro en fonction de la valeur du nombre. Cela gère automatiquement les langues ayant des règles de pluriel complexes."
+}
