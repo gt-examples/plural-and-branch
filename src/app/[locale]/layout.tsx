@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { GTProvider } from 'gt-next';
 import { getGT } from 'gt-next/server';
-import loadTranslations from '../../loadTranslations';
 import './globals.css';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -23,7 +22,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className="bg-gray-50 text-gray-900 min-h-screen">
-        <GTProvider loadTranslations={loadTranslations}>
+        <GTProvider>
           {children}
         </GTProvider>
       </body>
