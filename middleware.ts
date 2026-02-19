@@ -1,6 +1,8 @@
 import { createNextMiddleware } from 'gt-next/middleware';
 
-export default createNextMiddleware();
+export default createNextMiddleware({
+  prefixDefaultLocale: true,
+});
 
 export const config = {
   matcher: [
