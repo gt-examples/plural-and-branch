@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { T, Plural, Branch, Num, Var } from 'gt-next';
+import { useGT } from 'gt-next';
 import { LocaleSelector } from 'gt-next/client';
 
 type NotificationType = 'message' | 'alert' | 'update';
@@ -40,8 +41,34 @@ export default function Home() {
     setNotifications(SAMPLE_NOTIFICATIONS);
   };
 
+  const gt = useGT();
+
   return (
     <div className="max-w-xl mx-auto px-4 py-12">
+      {/* Example app disclaimer */}
+      <div className="bg-gray-100 border border-gray-200 rounded-lg px-4 py-3 mb-8 text-xs text-gray-500 text-center">
+        <T>
+          This is an example app built with{' '}
+          <a
+            href="https://generaltranslation.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            General Translation
+          </a>{' '}
+          to demonstrate the <Var>{'<Plural>'}</Var> and <Var>{'<Branch>'}</Var> components.{' '}
+          <a
+            href="https://github.com/gt-examples/plural-and-branch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-700"
+          >
+            View source on GitHub
+          </a>.
+        </T>
+      </div>
+
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-2xl font-semibold">
           <T>Notification Inbox</T>
@@ -52,7 +79,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-600 transition-colors"
-            aria-label="View on GitHub"
+            aria-label={gt("View on GitHub")}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
@@ -197,14 +224,19 @@ export default function Home() {
         <div className="text-sm text-gray-600 space-y-3">
           <p>
             <T>
-              The Plural component selects singular, plural, or zero forms
-              based on the count value. This handles languages with complex
-              plural rules automatically.
+              The{' '}
+              <a href="https://generaltranslation.com/en-US/docs/next/api/components/plural" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800">Plural</a>{' '}
+              component selects singular, plural, or zero forms
+              based on the count value. This handles languages with complex{' '}
+              <a href="https://cldr.unicode.org/index/cldr-spec/plural-rules" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800">CLDR plural rules</a>{' '}
+              automatically.
             </T>
           </p>
           <p>
             <T>
-              The Branch component renders different content based on a string
+              The{' '}
+              <a href="https://generaltranslation.com/en-US/docs/next/api/components/branch" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800">Branch</a>{' '}
+              component renders different content based on a string
               key. Each notification type (message, alert, update) gets its own
               translated text.
             </T>
@@ -213,6 +245,8 @@ export default function Home() {
             <T>
               Try switching languages with the selector above. Dismiss
               notifications to see the plural counts update in real time.
+              Learn more in the{' '}
+              <a href="https://generaltranslation.com/docs" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800">General Translation docs</a>.
             </T>
           </p>
         </div>
